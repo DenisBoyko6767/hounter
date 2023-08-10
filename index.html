@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230810145534">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<a href="#" class="menu__logo">
+						<img src="img/logo-ico.svg" alt="logo">
+						<span>Hounter</span>
+					</a>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a href="#" class="menu__link">About Us</a></li>
+							<li><a href="#" class="menu__link">Article</a></li>
+							<li class="_sublist">
+								<button type="button" class="menu__arrow">
+									<img src="img/arrow-header.svg" alt="@">
+								</button>
+								<a href="#" class="menu__link">Property</a>
+								<ul class="menu__sublist">
+									<li class="menu__sublink"><a href="#">About Us</a></li>
+									<li class="menu__sublink"><a href="#">Article</a></li>
+									<li class="menu__sublink"><a href="#">Property</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<button data-ripple type="button" class="menu__button ripple-button">
+						Sign Up!
+					</button>
+					<div class="menu__icon icon-menu">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__home home-block">
+				<div class="home-block__container">
+					<div class="home-block__content content-home">
+						<h1 class="content-home__title">
+							find the place to live <span>your dreams</span> easily here
+						</h1>
+						<div class="content-home__text">
+							Everything you need about finding your place to live will be here, where it will be easier for you
+						</div>
+						<div class="content-home__search">
+							<img src="img/location-ico.svg" alt="#" class="content-home__search-ico">
+							<input class="content-home__search-input" type="text">
+							<button data-ripple class="content-home__search-button ripple-button" type="button">
+								<span>Search</span>
+								<img src="img/arrow-header.svg" alt="@">
+							</button>
+						</div>
+						<div class="content-home__partners partners-content-home">
+							<div class="partners-content-home__title">Our Partnership</div>
+							<div class="partners-content-home__items">
+								<div class="partners-content-home__item">
+									<img src="img/partner-1.png" alt="@">
+								</div>
+								<div class="partners-content-home__item">
+									<img src="img/partner-2.png" alt="@">
+								</div>
+								<div class="partners-content-home__item">
+									<img src="img/partner-3.png" alt="@">
+								</div>
+								<div class="partners-content-home__item">
+									<img src="img/partner-4.png" alt="@">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="home-block__images images-home">
+						<div class="images-home__main-image -ibg">
+							<img src="img/home-image-main.png" alt="#">
+						</div>
+						<div class="images-home__items">
+							<img data-prlx-cy="10000" data-prlx-mouse class="images-home__item" src="img/home-image-item-1.png" alt="@">
+							<img data-prlx-cy="10000" data-prlx-mouse class="images-home__item" src="img/home-image-item-2.png" alt="@">
+							<img data-prlx-cy="10000" data-prlx-mouse class="images-home__item" src="img/home-image-item-3.png" alt="@">
+						</div>
+						<img data-prlx-mouse class="decor-home decor-home-1" src="img/decor-home-1.svg" alt="@">
+						<img data-prlx-mouse class="decor-home decor-home-2" src="img/decor-home-2.svg" alt="@">
+						<img data-prlx-mouse class="decor-home decor-home-3" src="img/decor-home-3.svg" alt="@">
+					</div>
+				</div>
+				<img class="home-block__decor-blur-home" src="img/decor-blur-home.svg" alt="@">
+			</section>
+			<section class="page__featured featured-block">
+				<div class="featured-block__container">
+					<div class="featured-block__label">Our Recommendation</div>
+					<div class="featured-block__control-panel control-panel-featured">
+						<h3 class="control-panel-featured__title">Featured House</h3>
+						<div class="control-panel-featured__filter-block filter-block-featured">
+							<a data-ripple href="#" class="filter-block-featured__sellect-item _active">
+								<svg class="filter-block-featured__ico" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M21 10.8319V19.5C20.9998 19.7719 20.9262 20.0386 20.7868 20.272C20.6475 20.5054 20.4476 20.6968 20.2084 20.8259C19.9916 20.9432 19.7485 21.0031 19.5021 20.9999H14.9967C14.7978 20.9999 14.607 20.9209 14.4664 20.7803C14.3257 20.6396 14.2467 20.4488 14.2467 20.2499V15.7493C14.2467 15.5504 14.1677 15.3596 14.0271 15.2189C13.8864 15.0783 13.6956 14.9993 13.4967 14.9993H10.4967C10.2978 14.9993 10.107 15.0783 9.9664 15.2189C9.82574 15.3596 9.74673 15.5504 9.74673 15.7493V20.2499C9.74673 20.4488 9.66771 20.6396 9.52706 20.7803C9.3864 20.9209 9.19564 20.9999 8.99673 20.9999H4.5002C4.28754 21.0005 4.07723 20.9556 3.88335 20.8682C3.68948 20.7808 3.51651 20.653 3.37604 20.4934C3.12946 20.2082 2.99571 19.8427 3.00001 19.4657V10.8318C3.00017 10.6228 3.04392 10.4162 3.12846 10.225C3.21299 10.0339 3.33646 9.86251 3.49098 9.7218L10.9903 2.90308C11.2658 2.65075 11.6258 2.51078 11.9994 2.51074C12.3729 2.51071 12.733 2.65062 13.0085 2.90289L20.5091 9.72189C20.6636 9.86263 20.787 10.034 20.8716 10.2252C20.9561 10.4163 20.9998 10.6229 21 10.8319Z" fill="#888B97" />
+								</svg>
+								<div class="filter-block-featured__text">House</div>
+							</a>
+							<a data-ripple href="#" class="filter-block-featured__sellect-item">
+								<svg class="filter-block-featured__ico" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M7 20.9999H4C3.45 20.9999 3 20.5499 3 19.9999V8.68994C3 8.26994 3.25 7.89994 3.64 7.74994L14.64 3.51994C14.7921 3.46126 14.9561 3.44064 15.118 3.45986C15.2798 3.47909 15.4345 3.53758 15.5686 3.63025C15.7027 3.72292 15.8121 3.84696 15.8873 3.99156C15.9624 4.13617 16.0012 4.29696 16 4.45994V9.99994H8C7.45 9.99994 7 10.4499 7 10.9999V20.9999ZM17 11.9999H10C9.45 11.9999 9 12.4499 9 12.9999V19.9999C9 20.5499 9.45 20.9999 10 20.9999H14V16.9999C14 16.4499 14.45 15.9999 15 15.9999C15.55 15.9999 16 16.4499 16 16.9999V20.9999H20C20.55 20.9999 21 20.5499 21 19.9999V11.9999C21 10.8999 20.1 9.99994 19 9.99994C17.9 9.99994 17 10.8999 17 11.9999Z" fill="#888B97" />
+								</svg>
+								<div class="filter-block-featured__text">Villa</div>
+							</a>
+							<a data-ripple href="#" class="filter-block-featured__sellect-item">
+								<svg class="filter-block-featured__ico" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M17 11V5C17 3.9 16.1 3 15 3H9C7.9 3 7 3.9 7 5V7H5C3.9 7 3 7.9 3 9V19C3 20.1 3.9 21 5 21H11V17H13V21H19C20.1 21 21 20.1 21 19V13C21 11.9 20.1 11 19 11H17ZM7 19H5V17H7V19ZM7 15H5V13H7V15ZM7 11H5V9H7V11ZM11 15H9V13H11V15ZM11 11H9V9H11V11ZM11 7H9V5H11V7ZM15 15H13V13H15V15ZM15 11H13V9H15V11ZM15 7H13V5H15V7ZM19 19H17V17H19V19ZM19 15H17V13H19V15Z" fill="#888B97" />
+								</svg>
+								<div class="filter-block-featured__text">Apartment</div>
+							</a>
+						</div>
+						<div class="control-panel-featured__arrows-block arrows-block-featured">
+							<div class="arrows-block-featured__arrow-wrapper">
+								<button data-ripple type="button" class="arrows-block-featured__arrow ripple-button arrows-block-featured__arrow-prev">
+									<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+										<path d="M11.6589 5.83552C11.3886 5.83499 11.1266 5.92971 10.9185 6.10326C10.8014 6.20098 10.7045 6.321 10.6336 6.45644C10.5626 6.59188 10.5189 6.74007 10.5049 6.89254C10.4909 7.04501 10.507 7.19875 10.5521 7.34496C10.5973 7.49118 10.6707 7.62699 10.7681 7.74462L15.9509 13.9841L10.9532 20.2353C10.8571 20.3543 10.7854 20.4913 10.7421 20.6384C10.6988 20.7855 10.6848 20.9397 10.7009 21.0922C10.717 21.2448 10.7629 21.3926 10.836 21.5272C10.9091 21.6618 11.0079 21.7806 11.1267 21.8766C11.2464 21.9826 11.3866 22.0625 11.5385 22.1114C11.6903 22.1603 11.8506 22.177 12.0092 22.1607C12.1678 22.1443 12.3213 22.0951 12.4601 22.0161C12.5989 21.9372 12.72 21.8303 12.8158 21.702L18.4035 14.7175C18.5736 14.5092 18.6667 14.2479 18.6667 13.9783C18.6667 13.7087 18.5736 13.4474 18.4035 13.2391L12.6191 6.25459C12.5031 6.11371 12.3556 6.00235 12.1888 5.92954C12.022 5.85673 11.8404 5.82452 11.6589 5.83552Z" fill="white" />
+									</svg>
+								</button>
+							</div>
+							<div class="arrows-block-featured__arrow-wrapper">
+								<button data-ripple type="button" class="arrows-block-featured__arrow ripple-button arrows-block-featured__arrow-next">
+									<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+										<path d="M11.6589 5.83552C11.3886 5.83499 11.1266 5.92971 10.9185 6.10326C10.8014 6.20098 10.7045 6.321 10.6336 6.45644C10.5626 6.59188 10.5189 6.74007 10.5049 6.89254C10.4909 7.04501 10.507 7.19875 10.5521 7.34496C10.5973 7.49118 10.6707 7.62699 10.7681 7.74462L15.9509 13.9841L10.9532 20.2353C10.8571 20.3543 10.7854 20.4913 10.7421 20.6384C10.6988 20.7855 10.6848 20.9397 10.7009 21.0922C10.717 21.2448 10.7629 21.3926 10.836 21.5272C10.9091 21.6618 11.0079 21.7806 11.1267 21.8766C11.2464 21.9826 11.3866 22.0625 11.5385 22.1114C11.6903 22.1603 11.8506 22.177 12.0092 22.1607C12.1678 22.1443 12.3213 22.0951 12.4601 22.0161C12.5989 21.9372 12.72 21.8303 12.8158 21.702L18.4035 14.7175C18.5736 14.5092 18.6667 14.2479 18.6667 13.9783C18.6667 13.7087 18.5736 13.4474 18.4035 13.2391L12.6191 6.25459C12.5031 6.11371 12.3556 6.00235 12.1888 5.92954C12.022 5.85673 11.8404 5.82452 11.6589 5.83552Z" fill="white" />
+									</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="featured-block__slider featured-slider">
+						<!-- Оболочка слайдера -->
+						<div class="featured__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="featured__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="featured__slide swiper-slide">
+									<div class="featured__slide-inner">
+										<a href="#" class="featured-slider__image-block">
+											<img class="featured-slider__image" src="img/Featured-image-1.jpg" alt="img">
+											<div class="featured-slider__label -lable-featured-popular">
+												<img src="img/Featured-fire-ico.svg" alt="@">
+												<span>Popular</span>
+											</div>
+										</a>
+										<div class="featured-slider__title-block">
+											<a href="#" class="featured-slider__title">Roselands House</a>
+											<div class="featured-slider__pricing"><span>$</span> 35.000.000</div>
+										</div>
+										<div class="featured-slider__user-block user-block-featured">
+											<img class="user-block-featured__image" src="img/Featured-user-ico-1.png" alt="user">
+											<div class="user-block-featured__name">Dianne Russell</div>
+											<div class="user-block-featured__address">Manchester, Kentucky</div>
+										</div>
+									</div>
+								</div>
+								<div class="featured__slide swiper-slide">
+									<div class="featured__slide-inner">
+										<a href="#" class="featured-slider__image-block">
+											<img class="featured-slider__image" src="img/Featured-image-2.jpg" alt="img">
+											<div class="featured-slider__label -lable-featured-new-house">
+												<img src="img/Featured-house-blue-ico.svg" alt="@">
+												<span>New house</span>
+											</div>
+										</a>
+										<div class="featured-slider__title-block">
+											<a href="#" class="featured-slider__title">Woodlandside</a>
+											<div class="featured-slider__pricing"><span>$</span> 20.000.000</div>
+										</div>
+										<div class="featured-slider__user-block user-block-featured">
+											<img class="user-block-featured__image" src="img/Featured-user-ico-2.png" alt="user">
+											<div class="user-block-featured__name">Robert Fox</div>
+											<div class="user-block-featured__address">Dr. San Jose, South Dakota</div>
+										</div>
+									</div>
+								</div>
+								<div class="featured__slide swiper-slide">
+									<div class="featured__slide-inner">
+										<a href="#" class="featured-slider__image-block">
+											<img class="featured-slider__image" src="img/Featured-image-3.jpg" alt="img">
+											<div class="featured-slider__label -lable-featured-best-deals">
+												<img src="img/Featured-wallet-ico.svg" alt="@">
+												<span>Best Deals</span>
+											</div>
+										</a>
+										<div class="featured-slider__title-block">
+											<a href="#" class="featured-slider__title">The Old Lighthouse</a>
+											<div class="featured-slider__pricing"><span>$</span> 44.000.000</div>
+										</div>
+										<div class="featured-slider__user-block user-block-featured">
+											<img class="user-block-featured__image" src="img/Featured-user-ico-3.png" alt="user">
+											<div class="user-block-featured__name">Ronald Richards</div>
+											<div class="user-block-featured__address">Santa Ana, Illinois</div>
+										</div>
+									</div>
+								</div>
+								<div class="featured__slide swiper-slide">
+									<div class="featured__slide-inner">
+										<a href="#" class="featured-slider__image-block">
+											<img class="featured-slider__image" src="img/Featured-image-4.jpg" alt="img">
+											<div class="featured-slider__label -lable-featured-popular">
+												<img src="img/Featured-fire-ico.svg" alt="@">
+												<span>Popular</span>
+											</div>
+										</a>
+										<div class="featured-slider__title-block">
+											<a href="#" class="featured-slider__title">Cosmo's House</a>
+											<div class="featured-slider__pricing"><span>$</span> 22.000.000</div>
+										</div>
+										<div class="featured-slider__user-block user-block-featured">
+											<img class="user-block-featured__image" src="img/Featured-user-ico-4.png" alt="user">
+											<div class="user-block-featured__name">Jenny Wilson</div>
+											<div class="user-block-featured__address">Preston Rd. Inglewood, Maine 98380</div>
+										</div>
+									</div>
+								</div>
+								<div class="featured__slide swiper-slide">
+									<div class="featured__slide-inner">
+										<a href="#" class="featured-slider__image-block">
+											<img class="featured-slider__image" src="img/Featured-image-2.jpg" alt="img">
+											<div class="featured-slider__label -lable-featured-new-house">
+												<img src="img/Featured-house-blue-ico.svg" alt="@">
+												<span>New house</span>
+											</div>
+										</a>
+										<div class="featured-slider__title-block">
+											<a href="#" class="featured-slider__title">Woodlandside</a>
+											<div class="featured-slider__pricing"><span>$</span> 20.000.000</div>
+										</div>
+										<div class="featured-slider__user-block user-block-featured">
+											<img class="user-block-featured__image" src="img/Featured-user-ico-2.png" alt="user">
+											<div class="user-block-featured__name">Robert Fox</div>
+											<div class="user-block-featured__address">Dr. San Jose, South Dakota</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__tour tour-block">
+				<div class="tour-block__container">
+					<div class="tour-block__content content-tour">
+						<div class="content-tour__label">Ready to Sell!</div>
+						<div class="content-tour__text-block">
+							<h2 class="content-tour__title">Let’s tour and see our house!</h2>
+							<div class="content-tour__text">Houses recommended by our partners that have been curated to become
+								the home of your dreams!</div>
+						</div>
+						<div class="content-tour__details details-content-tour">
+							<h4 class="details-content-tour__title">House Detail</h4>
+							<div class="details-content-tour__items">
+								<div class="details-content-tour__item">
+									<img class="details-content-tour__ico" src="img/tour-ico-1.svg" alt="ico">
+									<div class="details-content-tour__text"><span>4</span> Bedrooms</div>
+								</div>
+								<div class="details-content-tour__item">
+									<img class="details-content-tour__ico" src="img/tour-ico-2.svg" alt="ico">
+									<div class="details-content-tour__text"><span>2</span> Bathrooms</div>
+								</div>
+								<div class="details-content-tour__item">
+									<img class="details-content-tour__ico" src="img/tour-ico-3.svg" alt="ico">
+									<div class="details-content-tour__text"><span>1</span> Carport</div>
+								</div>
+								<div class="details-content-tour__item">
+									<img class="details-content-tour__ico" src="img/tour-ico-4.svg" alt="ico">
+									<div class="details-content-tour__text"><span>2</span> Floors</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-tour__user-block user-block-tour">
+							<div class="user-block-tour__content">
+								<div class="user-block-tour__avatar">
+									<img src="img/tour-avatar.png" alt="avatar">
+								</div>
+								<div class="user-block-tour__name">Dianne Russell</div>
+								<div class="user-block-tour__rank">Manager Director</div>
+							</div>
+							<div class="user-block-tour__button-block">
+								<a href="tel:+380634600616" data-ripple class="user-block-tour__button ripple-button">
+									<img src="img/tour-tele-ico.svg" alt="tele-ico">
+									<span>Contact Now</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="tour-block__image-content image-content-tour">
+						<img src="img/tour-image-1.jpg" alt="main-image" class="image-content-tour__main-image">
+						<div class="image-content-tour__images">
+							<img class="image-content-tour__image-1" src="img/tour-image-2.jpg" alt="img">
+							<img class="image-content-tour__image-2" src="img/tour-image-3.jpg" alt="img">
+							<img class="image-content-tour__image-3" src="img/tour-image-4.jpg" alt="img">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__feedback feedback-block">
+				<div class="feedback-block__container">
+					<div class="feedback-block__label">
+						See Our Review
+					</div>
+					<h2 class="feedback-block__title">
+						What Our User Say About Us
+					</h2>
+
+					<div class="feedback-block__slider slider-feedback">
+						<div class="slider-feedback__slider swiper">
+							<div class="slider-feedback__wrapper swiper-wrapper">
+								<div class="slider-feedback__slide swiper-slide">
+									<div class="slider-feedback__main-image">
+										<img src="img/feedback-image-1.jpg" alt="image">
+										<div data-swiper-parallax-opacity="0.9" data-swiper-parallax-y="30" class="slider-feedback__content">
+											<div class="slider-feedback__text-block">
+												<div class="slider-feedback__title">
+													Best! I got the house I wanted through Hounter
+												</div>
+												<div class="slider-feedback__text">
+													Through this website I can get a house with the type and specifications I want
+													very easily, without a complicated process to be able to find information on the
+													house we want.
+												</div>
+											</div>
+											<div class="slider-feedback__user-block">
+												<img class="slider-feedback__user-avatar" src="img/Featured-user-ico-1.png" alt="avatar">
+												<div class="slider-feedback__user-name">Dianne Russell</div>
+												<div class="slider-feedback__user-rank">Manager Director</div>
+											</div>
+											<div class="slider-feedback__rating">
+												<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+													<path d="M25.6048 10.7088C25.5315 10.4929 25.3965 10.3031 25.2166 10.1629C25.0366 10.0228 24.8196 9.93838 24.5922 9.92018L17.941 9.39168L15.0628 3.02052C14.9712 2.81531 14.8221 2.64103 14.6336 2.51868C14.445 2.39634 14.2251 2.33118 14.0004 2.33105C13.7756 2.33093 13.5557 2.39585 13.367 2.51799C13.1783 2.64012 13.0291 2.81425 12.9372 3.01935L10.059 9.39168L3.40784 9.92018C3.18437 9.93789 2.97074 10.0196 2.79249 10.1555C2.61424 10.2915 2.47894 10.4759 2.40275 10.6867C2.32657 10.8975 2.31274 11.1259 2.36291 11.3443C2.41309 11.5628 2.52514 11.7622 2.68568 11.9187L7.60084 16.7102L5.86251 24.2375C5.80973 24.4654 5.82664 24.7038 5.91107 24.9219C5.99549 25.14 6.14352 25.3278 6.33595 25.4607C6.52837 25.5936 6.75632 25.6657 6.99019 25.6674C7.22407 25.6692 7.45308 25.6007 7.64751 25.4707L14 21.2357L20.3525 25.4707C20.5512 25.6026 20.7856 25.6706 21.0241 25.6653C21.2626 25.6601 21.4937 25.582 21.6865 25.4414C21.8792 25.3009 22.0243 25.1047 22.1022 24.8793C22.1802 24.6538 22.1872 24.4099 22.1223 24.1803L19.9885 16.7137L25.2805 11.9514C25.627 11.6387 25.7542 11.151 25.6048 10.7088Z" fill="#F59E0B" />
+												</svg>
+												<span>4.3</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="slider-feedback__slide swiper-slide">
+									<div class="slider-feedback__main-image">
+										<img src="img/feedback-image-2.jpg" alt="image">
+										<div data-swiper-parallax-opacity="0.9" data-swiper-parallax-y="-30" class="slider-feedback__content">
+											<div class="slider-feedback__text-block">
+												<div class="slider-feedback__title">
+													Best! I got the house I wanted through Hounter
+												</div>
+												<div class="slider-feedback__text">
+													Through this website I can get a house with the type and specifications I want
+													very easily, without a complicated process to be able to find information on the
+													house we want.
+												</div>
+											</div>
+											<div class="slider-feedback__user-block">
+												<img class="slider-feedback__user-avatar" src="img/Featured-user-ico-2.png" alt="avatar">
+												<div class="slider-feedback__user-name">Esther Howard</div>
+												<div class="slider-feedback__user-rank">Head of Marketing</div>
+											</div>
+											<div class="slider-feedback__rating">
+												<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+													<path d="M25.6048 10.7088C25.5315 10.4929 25.3965 10.3031 25.2166 10.1629C25.0366 10.0228 24.8196 9.93838 24.5922 9.92018L17.941 9.39168L15.0628 3.02052C14.9712 2.81531 14.8221 2.64103 14.6336 2.51868C14.445 2.39634 14.2251 2.33118 14.0004 2.33105C13.7756 2.33093 13.5557 2.39585 13.367 2.51799C13.1783 2.64012 13.0291 2.81425 12.9372 3.01935L10.059 9.39168L3.40784 9.92018C3.18437 9.93789 2.97074 10.0196 2.79249 10.1555C2.61424 10.2915 2.47894 10.4759 2.40275 10.6867C2.32657 10.8975 2.31274 11.1259 2.36291 11.3443C2.41309 11.5628 2.52514 11.7622 2.68568 11.9187L7.60084 16.7102L5.86251 24.2375C5.80973 24.4654 5.82664 24.7038 5.91107 24.9219C5.99549 25.14 6.14352 25.3278 6.33595 25.4607C6.52837 25.5936 6.75632 25.6657 6.99019 25.6674C7.22407 25.6692 7.45308 25.6007 7.64751 25.4707L14 21.2357L20.3525 25.4707C20.5512 25.6026 20.7856 25.6706 21.0241 25.6653C21.2626 25.6601 21.4937 25.582 21.6865 25.4414C21.8792 25.3009 22.0243 25.1047 22.1022 24.8793C22.1802 24.6538 22.1872 24.4099 22.1223 24.1803L19.9885 16.7137L25.2805 11.9514C25.627 11.6387 25.7542 11.151 25.6048 10.7088Z" fill="#F59E0B" />
+												</svg>
+												<span>4.6</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="slider-feedback__slide swiper-slide">
+									<div class="slider-feedback__main-image">
+										<img src="img/feedback-image-3.jpg" alt="image">
+										<div data-swiper-parallax-opacity="0.9" data-swiper-parallax-y="-30" class="slider-feedback__content">
+											<div class="slider-feedback__text-block">
+												<div class="slider-feedback__title">
+													Best! I got the house I wanted through Hounter
+												</div>
+												<div class="slider-feedback__text">
+													Through this website I can get a house with the type and specifications I want
+													very easily, without a complicated process to be able to find information on the
+													house we want.
+												</div>
+											</div>
+											<div class="slider-feedback__user-block">
+												<img class="slider-feedback__user-avatar" src="img/Featured-user-ico-3.png" alt="avatar">
+												<div class="slider-feedback__user-name">Denis Boyko</div>
+												<div class="slider-feedback__user-rank">Boss of all boss</div>
+											</div>
+											<div class="slider-feedback__rating">
+												<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+													<path d="M25.6048 10.7088C25.5315 10.4929 25.3965 10.3031 25.2166 10.1629C25.0366 10.0228 24.8196 9.93838 24.5922 9.92018L17.941 9.39168L15.0628 3.02052C14.9712 2.81531 14.8221 2.64103 14.6336 2.51868C14.445 2.39634 14.2251 2.33118 14.0004 2.33105C13.7756 2.33093 13.5557 2.39585 13.367 2.51799C13.1783 2.64012 13.0291 2.81425 12.9372 3.01935L10.059 9.39168L3.40784 9.92018C3.18437 9.93789 2.97074 10.0196 2.79249 10.1555C2.61424 10.2915 2.47894 10.4759 2.40275 10.6867C2.32657 10.8975 2.31274 11.1259 2.36291 11.3443C2.41309 11.5628 2.52514 11.7622 2.68568 11.9187L7.60084 16.7102L5.86251 24.2375C5.80973 24.4654 5.82664 24.7038 5.91107 24.9219C5.99549 25.14 6.14352 25.3278 6.33595 25.4607C6.52837 25.5936 6.75632 25.6657 6.99019 25.6674C7.22407 25.6692 7.45308 25.6007 7.64751 25.4707L14 21.2357L20.3525 25.4707C20.5512 25.6026 20.7856 25.6706 21.0241 25.6653C21.2626 25.6601 21.4937 25.582 21.6865 25.4414C21.8792 25.3009 22.0243 25.1047 22.1022 24.8793C22.1802 24.6538 22.1872 24.4099 22.1223 24.1803L19.9885 16.7137L25.2805 11.9514C25.627 11.6387 25.7542 11.151 25.6048 10.7088Z" fill="#F59E0B" />
+												</svg>
+												<span>4.2</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__more more-block">
+				<div class="more-block__container">
+					<div class="more-block__label">See tips and trick from our partnership</div>
+					<h2 class="more-block__title">
+						Find out more about
+						selling and buying homes
+					</h2>
+					<div class="more-block__button-wrapper"><a data-ripple href="#" class="more-block__button ripple-button"><span>More Artikel</span></a></div>
+					<div class="more-block__content content-more">
+						<div class="content-more__item">
+							<a href="#" class="content-more__image -ibg">
+								<img src="img/more-img-1.jpg" alt="image">
+							</a>
+							<div class="content-more__body">
+								<div class="content-more__user">
+									<img src="img/more-avatar-1.png" alt="avatar" class="content-more__user-avatar">
+									<div class="content-more__user-name">Dianne Russell</div>
+								</div>
+								<a href="#" class="content-more__title">The things we need to check when we want to buy a
+									house</a>
+								<div class="content-more__data">
+									<img src="img/more-time-ico.svg" alt="ico" class="content-more__data-ico">
+									<div class="content-more__data-content">4 min read | 25 Apr 2021</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-more__item">
+							<a href="#" class="content-more__image -ibg">
+								<img src="img/more-img-2.jpg" alt="image">
+							</a>
+							<div class="content-more__body">
+								<div class="content-more__user">
+									<img src="img/more-avatar-2.png" alt="avatar" class="content-more__user-avatar">
+									<div class="content-more__user-name">Courtney Henry</div>
+								</div>
+								<a href="#" class="content-more__title">7 Ways to distinguish the quality of the house we want
+									to buy
+								</a>
+								<div class="content-more__data">
+									<img src="img/more-time-ico.svg" alt="ico" class="content-more__data-ico">
+									<div class="content-more__data-content">6 min read | 24 Apr 2021</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-more__item">
+							<a href="#" class="content-more__image -ibg">
+								<img src="img/more-img-3.jpg" alt="image">
+							</a>
+							<div class="content-more__body">
+								<div class="content-more__user">
+									<img src="img/more-avatar-3.png" alt="avatar" class="content-more__user-avatar">
+									<div class="content-more__user-name">Darlene Robertson</div>
+								</div>
+								<a href="#" class="content-more__title">The best way to know the quality of the house we want to
+									buy
+								</a>
+								<div class="content-more__data">
+									<img src="img/more-time-ico.svg" alt="ico" class="content-more__data-ico">
+									<div class="content-more__data-content">2 min read | 24 Apr 2021</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-more__item -main-item">
+							<a href="#" class="content-more__image -ibg">
+								<img src="img/more-img-4.jpg" alt="image">
+							</a>
+							<div class="content-more__body">
+								<div class="content-more__user">
+									<img src="img/more-avatar-4.png" alt="avatar" class="content-more__user-avatar">
+									<div class="content-more__user-name">Cameron Williamson</div>
+								</div>
+								<a href="#" class="content-more__title">12 Things to know before buying a house</a>
+								<div class="content-more__description">
+									Want to buy a house but are unsure about what we should know, here I will try to explain what
+									we should know and check when we want to buy a house
+								</div>
+								<div class="content-more__data">
+									<img src="img/more-time-ico.svg" alt="ico" class="content-more__data-ico">
+									<div class="content-more__data-content">8 min read | 25 Apr 2021</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__contact contact-block">
+				<div class="contact-block__container">
+					<h2 class="contact-block__title">Subscribe For More Info and update from Hounter</h2>
+					<form action="#" class="contact-block__email-input-block email-input-block">
+						<img class="email-input-block__ico" src="img/email-ico.svg" alt="ico">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Your email here" class="email-input-block__input">
+						<button data-da=".contact-block__container,440,2" data-ripple class="email-input-block__button ripple-button" type="submit">Subsribe Now</button>
+					</form>
+					<div class="contact-block__decor-images decor-images">
+						<img data-prlx-cx="30" data-prlx-mouse class="decor-images__img-1" src="img/contact-img-1.png" alt="img-decor">
+						<img data-prlx-cx="30" data-prlx-mouse class="decor-images__img-2" src="img/contact-img-2.png" alt="img-decor">
+						<img data-prlx-cx="30" data-prlx-mouse class="decor-images__img-3" src="img/contact-img-3.png" alt="img-decor">
+						<img data-prlx-cx="30" data-prlx-mouse class="decor-images__img-4" src="img/contact-img-4.png" alt="img-decor">
+						<img data-prlx-cx="30" data-prlx-mouse class="decor-images__img-5" src="img/contact-img-5.png" alt="img-decor">
+						<img data-prlx-cx="30" data-prlx-mouse class="decor-images__img-6" src="img/contact-img-6.png" alt="img-decor">
+						<img data-prlx-cx="30" data-prlx-mouse class="decor-images__img-7" src="img/contact-img-7.png" alt="img-decor">
+						<img data-prlx-cx="30" data-prlx-mouse class="decor-images__img-8" src="img/contact-img-8.png" alt="img-decor">
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content content-footer">
+					<a href="#" class="content-footer__logo">
+						<img src="img/logo-ico.svg" alt="logo">
+						<span>Hounter</span>
+					</a>
+					<div class="content-footer__text">
+						We provide information about properties such as houses, villas and apartments to help people find their
+						dream home
+					</div>
+					<div class="content-footer__links">
+						<a class="content-footer__link" href="#"><img src="img/fb-ico-footer.svg" alt="link"></a>
+						<a class="content-footer__link" href="#"><img src="img/tw-ico-footer.svg" alt="link"></a>
+						<a class="content-footer__link" href="#"><img src="img/inst-ico-footer.svg" alt="link"></a>
+					</div>
+				</div>
+				<div class="footer__menu menu-footer">
+					<ul class="menu-footer__links">
+						<li><a class="menu-footer__title" href="#">Property</a></li>
+						<li><a class="menu-footer__link" href="#">House</a></li>
+						<li><a class="menu-footer__link" href="#">Apartment</a></li>
+						<li><a class="menu-footer__link" href="#">Villa</a></li>
+					</ul>
+					<ul class="menu-footer__links">
+						<li><a class="menu-footer__title" href="#">Article</a></li>
+						<li><a class="menu-footer__link" href="#">New Article</a></li>
+						<li><a class="menu-footer__link" href="#">Popular Article</a></li>
+						<li><a class="menu-footer__link" href="#">Most Read</a></li>
+						<li><a class="menu-footer__link" href="#">Tips & Tricks</a></li>
+					</ul>
+					<ul class="menu-footer__links">
+						<li><a class="menu-footer__title" href="#">Contact</a></li>
+						<li><a class="menu-footer__link" href="#">2464 Royal Ln. Mesa, New Jersey 45463</a></li>
+						<li><a class="menu-footer__link" href="#">(671) 555-0110</a></li>
+						<li><a class="menu-footer__link" href="#">info@hounter.com</a></li>
+					</ul>
+				</div>
+			</div>
+			<svg class="decor-footer-1" xmlns="http://www.w3.org/2000/svg" width="660" height="442" viewBox="0 0 660 442" fill="none">
+				<g opacity="0.3" filter="url(#filter0_f_4_16)">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M591.209 352.001C580.173 386.669 554.914 413.19 532.037 441.462C512.326 465.821 491.32 487.535 466.292 506.373C438.414 527.356 412.122 556.558 377.273 557.946C342.311 559.339 312.951 533.407 284.067 513.634C256.911 495.044 237.575 469.427 214.166 446.286C182.126 414.612 126.833 396.642 120.566 352.001C114.507 308.845 158.489 275.35 185.353 241.061C209.162 210.671 235.738 183.755 268.438 163.262C302.015 142.219 338.082 115.019 377.273 120.785C416.401 126.54 433.038 176.499 469.088 192.779C511.116 211.758 573.755 185.58 601.836 222.192C628.703 257.222 604.604 309.919 591.209 352.001Z" fill="#B9FF82" />
+				</g>
+				<defs>
+					<filter id="filter0_f_4_16" x="0" y="-1.14441e-05" width="734" height="678" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix" />
+						<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+						<feGaussianBlur stdDeviation="60" result="effect1_foregroundBlur_4_16" />
+					</filter>
+				</defs>
+			</svg>
+			<svg class="decor-footer-2" xmlns="http://www.w3.org/2000/svg" width="660" height="442" viewBox="0 0 660 442" fill="none">
+				<g opacity="0.3" filter="url(#filter0_f_4_16)">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M591.209 352.001C580.173 386.669 554.914 413.19 532.037 441.462C512.326 465.821 491.32 487.535 466.292 506.373C438.414 527.356 412.122 556.558 377.273 557.946C342.311 559.339 312.951 533.407 284.067 513.634C256.911 495.044 237.575 469.427 214.166 446.286C182.126 414.612 126.833 396.642 120.566 352.001C114.507 308.845 158.489 275.35 185.353 241.061C209.162 210.671 235.738 183.755 268.438 163.262C302.015 142.219 338.082 115.019 377.273 120.785C416.401 126.54 433.038 176.499 469.088 192.779C511.116 211.758 573.755 185.58 601.836 222.192C628.703 257.222 604.604 309.919 591.209 352.001Z" fill="#B9FF82" />
+				</g>
+				<defs>
+					<filter id="filter0_f_4_16" x="0" y="-1.14441e-05" width="734" height="678" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix" />
+						<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+						<feGaussianBlur stdDeviation="60" result="effect1_foregroundBlur_4_16" />
+					</filter>
+				</defs>
+			</svg>
+			<svg class="decor-footer-3" xmlns="http://www.w3.org/2000/svg" width="414" height="507" viewBox="0 0 414 507" fill="none">
+				<g opacity="0.3" filter="url(#filter0_f_4_15)">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M591.209 352.001C580.173 386.669 554.914 413.19 532.037 441.462C512.326 465.821 491.32 487.535 466.292 506.373C438.414 527.356 412.122 556.558 377.273 557.946C342.311 559.339 312.951 533.407 284.067 513.634C256.911 495.044 237.575 469.427 214.166 446.286C182.126 414.612 126.833 396.642 120.566 352.001C114.507 308.845 158.489 275.35 185.353 241.061C209.162 210.671 235.738 183.755 268.438 163.262C302.015 142.219 338.082 115.019 377.273 120.785C416.401 126.54 433.038 176.499 469.088 192.779C511.116 211.758 573.755 185.58 601.836 222.192C628.703 257.222 604.604 309.919 591.209 352.001Z" fill="#82BBFF" />
+				</g>
+				<defs>
+					<filter id="filter0_f_4_15" x="0" y="-1.14441e-05" width="734" height="678" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix" />
+						<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+						<feGaussianBlur stdDeviation="60" result="effect1_foregroundBlur_4_15" />
+					</filter>
+				</defs>
+			</svg>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230810145534"></script>
+</body>
+
+</html>
